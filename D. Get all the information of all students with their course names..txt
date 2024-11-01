@@ -1,3 +1,0 @@
-SELECT Students.StudentID, Students.Name, Students.City, Courses.Name AS CourseName
-FROM Students
-JOIN Courses ON Students.CourseID = Courses.CourseID;
